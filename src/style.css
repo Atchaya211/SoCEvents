@@ -83,5 +83,10 @@
 .Success{
     height: 500px;
     width: 500px;
+    margin-bottom: 20px;
+    border-radius: 50px;
     background-color: rgba(180, 178, 178, 0.8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
 }
