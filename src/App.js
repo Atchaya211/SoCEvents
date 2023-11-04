@@ -15,7 +15,7 @@ function App() {
   const [three, setThree]=useState("");
   const handeleThree = data => setThree(data);
   const Validate = () => {
-    if((one === 'Stephen' || one === 'stephen') && (two === 'Elizabeth' || two === 'elizabeth') && (three === 'Isabelle' || three === 'isabelle')) {
+    if((one === 'Stephen' || one === 'stephen') && (two === 'Lily' || two === 'lily') && (three === 'Isabelle' || three === 'isabelle')) {
       root.render(
         <div className="App" style={{ backgroundImage:`url(${image})` }}>
           <div className="Title"></div>
